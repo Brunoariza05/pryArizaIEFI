@@ -33,9 +33,9 @@
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.btnIniciarSesion = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.groupBo1 = new System.Windows.Forms.GroupBox();
+            this.login = new System.Windows.Forms.GroupBox();
             this.txtContraseña = new System.Windows.Forms.TextBox();
-            this.groupBo1.SuspendLayout();
+            this.login.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -78,18 +78,18 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "contraseña";
             // 
-            // groupBo1
+            // login
             // 
-            this.groupBo1.Controls.Add(this.label2);
-            this.groupBo1.Controls.Add(this.txtContraseña);
-            this.groupBo1.Controls.Add(this.label1);
-            this.groupBo1.Controls.Add(this.btnIniciarSesion);
-            this.groupBo1.Controls.Add(this.txtUsuario);
-            this.groupBo1.Location = new System.Drawing.Point(12, 12);
-            this.groupBo1.Name = "groupBo1";
-            this.groupBo1.Size = new System.Drawing.Size(268, 172);
-            this.groupBo1.TabIndex = 4;
-            this.groupBo1.TabStop = false;
+            this.login.Controls.Add(this.label2);
+            this.login.Controls.Add(this.txtContraseña);
+            this.login.Controls.Add(this.label1);
+            this.login.Controls.Add(this.btnIniciarSesion);
+            this.login.Controls.Add(this.txtUsuario);
+            this.login.Location = new System.Drawing.Point(12, 12);
+            this.login.Name = "login";
+            this.login.Size = new System.Drawing.Size(268, 172);
+            this.login.TabIndex = 4;
+            this.login.TabStop = false;
             // 
             // txtContraseña
             // 
@@ -106,15 +106,15 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(295, 198);
-            this.Controls.Add(this.groupBo1);
+            this.Controls.Add(this.login);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
             this.Load += new System.EventHandler(this.frmLogin_Load);
-            this.groupBo1.ResumeLayout(false);
-            this.groupBo1.PerformLayout();
+            this.login.ResumeLayout(false);
+            this.login.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -125,7 +125,7 @@
         private System.Windows.Forms.TextBox txtUsuario;
         private System.Windows.Forms.Button btnIniciarSesion;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.GroupBox groupBo1;
+        private System.Windows.Forms.GroupBox login;
         private System.Windows.Forms.TextBox txtContraseña;
     }
 }
